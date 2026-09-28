@@ -1,0 +1,24 @@
+# 数据（合成数据可重新生成，真实数据体积大+版权，不进库）
+data/
+
+# 论文全文提取（版权，不入库）
+paper_fulltext.txt
+
+# 临时脚本
+extract_docx.py
+
+# 本地工作记忆（WorkBuddy 管理）
+.workbuddy-ai/
+
+# Python
+__pycache__/
+*.py[cod]
+*.npy
+*.npz
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
