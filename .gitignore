@@ -22,3 +22,6 @@ venv/
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# 误操作产生的空文件
+.gitkeep

@@ -1,0 +1,15 @@
+# 基础依赖（数据清洗 / 坐标转换 / 匹配）
+numpy>=1.24
+scipy>=1.10
+pandas>=1.5
+
+# 视觉 / 视频处理
+opencv-python>=4.7
+
+# 目标检测评测（第二章 COCO mAP）
+pycocotools>=2.0.6
+
+# ---- 深度学习框架（不要在这里装，按你的 CUDA 版本单独装）----
+# torch / torchvision 需到 https://pytorch.org 按 CUDA 版本选择安装命令
+# 论文环境参考: torch 1.13.1 + CUDA 11.7
+# 例(CUDA 11.7):  pip install torch==1.13.1 torchvision==0.14.1 --index-url https://download.pytorch.org/whl/cu117
