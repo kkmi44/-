@@ -3,6 +3,9 @@ numpy>=1.24
 scipy>=1.10
 pandas>=1.5
 
+# AIS 报文解码（NMEA -> 结构化，convert_whut.py 依赖）
+pyais>=2.6
+
 # 视觉 / 视频处理
 opencv-python>=4.7
 
